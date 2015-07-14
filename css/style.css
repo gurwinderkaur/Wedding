@@ -1,0 +1,257 @@
+
+@font-face {
+  font-family: "Abadi MT Condensed Light Regular";
+  src: url("../fonts/Abadi MT Condensed Light Regular.ttf") format("truetype");
+}
+body
+{
+background-color: #b29f98;
+
+}
+.container
+{
+height:1320px;
+
+}
+.overlay{
+    background-color: #111;
+  opacity: 0.5;
+    position:fixed;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    z-index:100;
+}
+.overlay1,.overlay2,.overlay3{
+    opacity:0.5;
+	  background-color: darkgrey;
+    position:fixed;
+    top:0px;
+    bottom:0px;
+    left:0px;
+    right:0px;
+    z-index:100;
+}
+.wrapper
+{
+//width:100%;
+background-image: url('../images/bg.jpg');
+  height: 1280px;
+   margin: 0 55px;
+  border-top: 0;
+  border: 2px solid #111;
+  -moz-box-shadow: 8px 8px 16px -3px rgba(1, 1, 1, 0.6);
+-webkit-box-shadow: 8px 8px 16px -3px rgba(1, 1, 1, 0.6);
+  box-shadow: 8px 8px 16px -3px rgba(1, 1, 1, 0.6);
+}
+.title
+{
+font-family: "Abadi MT Condensed Light Regular", sans-serif;
+text-align: center;
+  color: #6B1100;
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: 19px;
+ 
+}
+header
+{
+float: left;
+  width: 100%;
+}
+#wedding_couple
+{
+text-align: center;
+  color: #fff;
+}
+.bride_name, .groom_name
+{
+//width: 50%;
+ // float: left;
+  line-height: 21px;
+  font-family: "Abadi MT Condensed Light Regular", sans-serif;
+}
+.first_name, .last_name
+{
+width: 100%;
+  float: left;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+ .last_name
+ {
+ font-size: 30px;
+ 
+ }
+ .banner
+ {
+ width: 182px;
+  float: left;
+  text-align: center;
+  background-image: url('../images/Image.png');
+  padding: 16px 0px;
+    height: 91px;
+ }
+ .banner a
+ { 
+ color:#fff;
+ font-size: 17px;
+ width: 115px;
+  float: left;
+  margin: 7px 32px;
+  line-height: 18px;
+ }
+ .mrgn
+ {
+ margin:0 35px;
+ }
+ #banner
+ {
+ float:left;
+ width:100%;
+ margin-bottom: 10px;
+ left: 95px;
+   position: relative;
+	}
+
+
+.rghtmrgn a {
+   margin: 16px 32px;
+ }
+ .invitation
+{
+//width: 100%;
+  //float: left;
+    padding: 0 41px;
+	  margin-top: 10px;
+  }
+  .wedding_date
+ {
+ 
+  float: left;
+  width: 100%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #FCDD8A;
+    margin: 20px 0px;
+  font-family: "Abadi MT Condensed Light Regular", sans-serif;
+  font-size: 39px;
+}
+.wrapper.nonimage {
+  background-image: none;
+  border: none;
+  box-shadow: none;
+}
+footer
+{
+//float: left;
+ // width: 100%;
+  text-align: center;
+  color: #fff;
+  font-size: 11px;
+}
+footer a{color:#fff;}
+#paly_bttn
+{
+
+ // width: 100%;
+  text-align: center;
+}
+#bottom-section
+{
+//float: left;
+ // width: 100%;
+  position: relative;
+ top: 683px;
+  }
+  #paly_vedio
+  {
+    position: relative;
+  left: 28px;
+  top: 460px;
+  }
+ #popup_box,#popup_box1,#popup_box2,#popup_box3 { 
+    display:none; /* Hide the DIV */
+    position:absolute;  
+    _position:absolute; /* hack for internet explorer 6 */  
+    height:300px;  
+    width:816px;  
+   margin: 0 57px;
+   z-index: 101;
+    top: 520px;
+    
+}
+#popup_box1 ,#popup_box2 ,#popup_box3 
+{
+
+padding: 20px;
+  background-color: #fff;
+  width: 590px;
+  margin: 0 57px;
+  border: 3px solid #dcdcdc;
+  top: 520px;
+  left: 320px;
+}
+a{  
+cursor: pointer;  
+text-decoration:none; 
+
+} 
+
+/* This is for the positioning of the Close Link */
+#popupBoxClose,#popupBoxClose1,#popupBoxClose2,#popupBoxClose3 {
+    font-size:20px;  
+    line-height:15px;  
+    right:5px;  
+    top:5px;  
+    position:absolute;  
+color:#fff; 
+    font-weight:500;
+position:fixed;	
+}
+#popupBoxClose1,#popupBoxClose2,#popupBoxClose3
+{
+ font-size: 15px;
+  right: 2px;
+  top: 0;
+  color: #777777;
+  border: 1px solid #dcdcdc;
+  background-color: #eeeeee;
+  padding: 3px 7px;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-top: 0;
+  border-right: 0;
+}
+a:hover
+{
+text-decoration: none;
+
+}
+@media screen and(min-width:768px)
+{
+
+#banner{left:9px;}
+
+
+}
+@media screen and (max-width: 480px) {
+
+#bottom-section {
+  top: 533px !important;
+}
+.wrapper {
+  margin: 0 !important;
+  width: 100% !important;
+}
+.wedding_date
+{
+  font-size: 22px;
+}
+#banner{left: 58px;}
+.mrgn{margin:0;}
+ .fluid-width-video-wrapper {
+    width: 100%;
+
+  }
